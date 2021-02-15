@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # Local
     'accounts',
     'pages',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +142,5 @@ EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = 'apikey'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+TIME_ZONE = 'America/New_York'
